@@ -8,8 +8,6 @@ import plotly.graph_objects as go
 import sqlalchemy
 import traceback
 
-engine = sqlalchemy.create_engine(st.secrets["DB_URL"])
-
 st.markdown("## Goal Planning Tool")
 
 st.markdown("""
